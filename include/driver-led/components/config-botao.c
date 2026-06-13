@@ -1,6 +1,7 @@
 #include "driver-botao.h" // Atualizado para o nome correto do arquivo
 #include "driver/gpio.h"
 
+
 void botao(void) {
 
 gpio_reset_pin(GPIO_NUM_0);
